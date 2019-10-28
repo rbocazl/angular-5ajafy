@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { products } from '../products';
+import { product } from '../products';
 
 @Component({
   selector: 'app-product-list',
@@ -8,7 +8,7 @@ import { products } from '../products';
   styleUrls: ['./product-list.component.css']
 })
 export class ProductListComponent {
-  products = products;
+  product = product;
 
   share() {
     window.alert('The product has been shared!');
